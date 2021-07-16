@@ -1,0 +1,26 @@
+section{
+    padding: 0 30px 30px 30px ;
+}
+
+.img_logo{
+    width: 15%;
+}
+
+.img_superhero{
+    width: 40%;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 50%;
+}
+
+button{
+    font-weight: 200;
+    background-color: black;
+    color: white;
+    border: none;
+    width: 10%;
+    height: 30px;
+}

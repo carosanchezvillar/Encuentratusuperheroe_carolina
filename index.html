@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuentra tu SuperHero</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    
+</head>
+<body>
+
+    <header>
+    <nav class="navbar navbar-dark bg-dark">
+        <span class="navbar-brand mb-0 h1"><img class="img_logo" src="img/sh2.jpg" alt=""></span>
+      </nav>
+    </header>
+    <main class="container"></main>
+
+      <section>
+
+      <img class= "img_superhero"src="img/sh1.jpg" alt="superhero">
+    </section>
+
+    <section>
+      <h1>Encuentra tu Superhero</h1>
+      <br>
+      <p>Ingresa el número del superhero a buscar</p>
+      
+      <form id="formulario">
+  <div class="form-group">
+    
+    <input type="number" class="form-control" id="superhero-input" aria-describedby="emailHelp">
+    
+  </div>
+</main>  
+  
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+      
+      </section>
+
+      <section class="row">
+        <div class="card col-12 col-sm-6 " id="tarjeta-superheroe">
+          <div class="col-12 col-sm-6">
+            <img src="" alt="" class="img-fluid" id="imagen">
+          </div>
+          <div class="col-12 col-sm-6">
+            <h1 id="nombre"></h1>
+            <p id ="publicadopor"></p>
+            <hr>
+            <p id ="ocupacion"></p>
+            <hr>
+            <p id ="aparicion"></p>
+            <hr>
+            <p id ="altura"></p>
+            <hr>
+            <p id ="peso"></p>
+            <hr>
+            <p id ="alianzas"></p>
+          </div>
+        </div>
+
+        <div>
+          <div class="col-12-col-sm-6" id="chartContainer" style="height: 370px; width: 100%;"></div>
+      </div>
+      </section>
+
+    
+    
+      
+      
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>  
+    <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+    <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+    <script src="index.js"></script>
+
+
+</body>
+</html>
